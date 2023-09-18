@@ -73,13 +73,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AOStrength: 1
+    - _AOStrength: 0.1
     - _AlphaCutoff: 0.5
     - _EnvironmentReflections: 1
-    - _FrontAO: 1
+    - _FrontAO: 0.722
     - _GumsBrightness: 0.9
     - _GumsSSS: 1
-    - _GumsSaturation: 1
+    - _GumsSaturation: 1.091
     - _GumsThickness: 0.2
     - _IsUpperTeeth: 0
     - _MicroNormalStrength: 0.3
@@ -87,7 +87,7 @@ Material:
     - _NormalStrength: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RearAO: 0
+    - _RearAO: 0.401
     - _ReceiveShadows: 1
     - _SmoothnessFront: 0.4181491
     - _SmoothnessMax: 0.897
