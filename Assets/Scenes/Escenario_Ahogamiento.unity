@@ -4188,6 +4188,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1810351859}
     m_Modifications:
+    - target: {fileID: 310781016955495106, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 434788764509951559, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 434788764509951559, guid: 1a731ac948e1882409cb82acfb6042f8,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
@@ -4198,20 +4208,80 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1324077335257495131, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2213564234604778924, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2213564234604778924, guid: 1a731ac948e1882409cb82acfb6042f8,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786379189987404138, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786379189987404138, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786379189987404138, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786379189987404138, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786379189987404138, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3786787064090911556, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3967770568961757529, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5807054042420111467, guid: 1a731ac948e1882409cb82acfb6042f8,
         type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5812739003406578199, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359034993403283723, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6359034993403283723, guid: 1a731ac948e1882409cb82acfb6042f8,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
       value: 121
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090800638238438409, guid: 1a731ac948e1882409cb82acfb6042f8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7150266375203269283, guid: 1a731ac948e1882409cb82acfb6042f8,
         type: 3}
