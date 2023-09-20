@@ -8,7 +8,7 @@
         "Export Directory": "D:/TRABAJO/Ahogamiento/Personaje",
         "Object": {
             "Personaje_Ahogamiento": {
-                "Generation": "RL_CharacterCreator_Base_Game_G1_Divide_Eyelash_UV",
+                "Generation": "Humanoid",
                 "Physics": {
                     "Collision Shapes": {
                         "pelvis": {
@@ -722,7 +722,10 @@
                             }
                         }
                     },
-                    "Has BindPose Data": true
+                    "Has BindPose Data": true,
+                    "Soft Physics": {
+                        "Meshes": {}
+                    }
                 },
                 "Meshes": {
                     "CC_Game_Body": {
@@ -750,7 +753,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Metallic": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Personaje_Ahogamiento/CC_Game_Tongue/Ga_Skin_Body/Ga_Skin_Body_metallic.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Skin_Body\\Ga_Skin_Body_metallic.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -762,7 +765,7 @@
                                         ]
                                     },
                                     "Base Color": {
-                                        "Texture Path": "Ga_Skin_Body_Diffuse.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Skin_Body_Diffuse.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -774,7 +777,7 @@
                                         ]
                                     },
                                     "Roughness": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Personaje_Ahogamiento/CC_Game_Tongue/Ga_Skin_Body/Ga_Skin_Body_roughness.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Skin_Body\\Ga_Skin_Body_roughness.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -786,8 +789,8 @@
                                         ]
                                     },
                                     "Normal": {
-                                        "Texture Path": "Ga_Skin_Body_Normal.png",
-                                        "Strength": 200.0,
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Skin_Body_Normal.png",
+                                        "Strength": 100.0,
                                         "Offset": [
                                             0.0,
                                             0.0
@@ -810,7 +813,7 @@
                                         ]
                                     },
                                     "AO": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Personaje_Ahogamiento/CC_Game_Tongue/Ga_Skin_Body/Ga_Skin_Body_ao.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Skin_Body\\Ga_Skin_Body_ao.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -846,7 +849,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Base Color": {
-                                        "Texture Path": "Ga_Eyelash_Diffuse.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Eyelash_Diffuse.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -858,7 +861,7 @@
                                         ]
                                     },
                                     "Roughness": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Personaje_Ahogamiento/CC_Game_Tongue/Ga_Eyelash/Ga_Eyelash_roughness.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Eyelash\\Ga_Eyelash_roughness.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -870,7 +873,7 @@
                                         ]
                                     },
                                     "Opacity": {
-                                        "Texture Path": "Ga_Eyelash_Opacity.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Eyelash_Diffuse.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -882,7 +885,7 @@
                                         ]
                                     },
                                     "Normal": {
-                                        "Texture Path": "Ga_Eyelash_Normal.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Eyelash_Normal.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -894,7 +897,7 @@
                                         ]
                                     },
                                     "AO": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Personaje_Ahogamiento/CC_Game_Tongue/Ga_Eyelash/Ga_Eyelash_ao.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Eyelash\\Ga_Eyelash_ao.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -905,7 +908,8 @@
                                             1.0
                                         ]
                                     }
-                                }
+                                },
+                                "Metallic_Value": 0.0
                             }
                         }
                     },
@@ -934,7 +938,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Metallic": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Personaje_Ahogamiento/CC_Game_Tongue/Ga_Skin_Body/Ga_Skin_Body_metallic.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Skin_Body\\Ga_Skin_Body_metallic.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -946,7 +950,7 @@
                                         ]
                                     },
                                     "Base Color": {
-                                        "Texture Path": "Ga_Skin_Body_Diffuse.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Skin_Body_Diffuse.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -958,7 +962,7 @@
                                         ]
                                     },
                                     "Roughness": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Personaje_Ahogamiento/CC_Game_Tongue/Ga_Skin_Body/Ga_Skin_Body_roughness.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Skin_Body\\Ga_Skin_Body_roughness.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -970,8 +974,8 @@
                                         ]
                                     },
                                     "Normal": {
-                                        "Texture Path": "Ga_Skin_Body_Normal.png",
-                                        "Strength": 200.0,
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Skin_Body_Normal.png",
+                                        "Strength": 100.0,
                                         "Offset": [
                                             0.0,
                                             0.0
@@ -994,7 +998,7 @@
                                         ]
                                     },
                                     "AO": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Personaje_Ahogamiento/CC_Game_Tongue/Ga_Skin_Body/Ga_Skin_Body_ao.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Skin_Body\\Ga_Skin_Body_ao.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1030,7 +1034,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Base Color": {
-                                        "Texture Path": "Ga_Eyelash_Diffuse.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Eyelash_Diffuse.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1042,7 +1046,7 @@
                                         ]
                                     },
                                     "Roughness": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Personaje_Ahogamiento/CC_Game_Tongue/Ga_Eyelash/Ga_Eyelash_roughness.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Eyelash\\Ga_Eyelash_roughness.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1054,7 +1058,7 @@
                                         ]
                                     },
                                     "Opacity": {
-                                        "Texture Path": "Ga_Eyelash_Opacity.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Eyelash_Diffuse.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1066,7 +1070,7 @@
                                         ]
                                     },
                                     "Normal": {
-                                        "Texture Path": "Ga_Eyelash_Normal.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Eyelash_Normal.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1078,7 +1082,7 @@
                                         ]
                                     },
                                     "AO": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Personaje_Ahogamiento/CC_Game_Tongue/Ga_Eyelash/Ga_Eyelash_ao.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Eyelash\\Ga_Eyelash_ao.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1089,7 +1093,8 @@
                                             1.0
                                         ]
                                     }
-                                }
+                                },
+                                "Metallic_Value": 0.0
                             }
                         }
                     },
@@ -1118,7 +1123,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Metallic": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Slim_Jeans/Slim_Jeans/Slim_Jeans/Slim_Jeans_metallic.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Slim_Jeans\\Slim_Jeans\\Slim_Jeans\\Slim_Jeans_metallic.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1130,7 +1135,7 @@
                                         ]
                                     },
                                     "Base Color": {
-                                        "Texture Path": "Slim_Jeans_Diffuse.jpg",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Slim_Jeans_Diffuse.jpg",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1142,7 +1147,7 @@
                                         ]
                                     },
                                     "Roughness": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Slim_Jeans/Slim_Jeans/Slim_Jeans/Slim_Jeans_roughness.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Slim_Jeans\\Slim_Jeans\\Slim_Jeans\\Slim_Jeans_roughness.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1154,7 +1159,7 @@
                                         ]
                                     },
                                     "Normal": {
-                                        "Texture Path": "Slim_Jeans_Normal.jpg",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Slim_Jeans_Normal.jpg",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1166,7 +1171,7 @@
                                         ]
                                     },
                                     "AO": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Slim_Jeans/Slim_Jeans/Slim_Jeans/Slim_Jeans_ao.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Slim_Jeans\\Slim_Jeans\\Slim_Jeans\\Slim_Jeans_ao.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1188,9 +1193,9 @@
                                 "MultiUV Index": 0,
                                 "Two Side": true,
                                 "Diffuse Color": [
-                                    16.0,
-                                    16.0,
-                                    16.0
+                                    16.000000946223736,
+                                    16.000000946223736,
+                                    16.000000946223736
                                 ],
                                 "Ambient Color": [
                                     41.0,
@@ -1206,7 +1211,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Metallic": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Sport_sneakers/Sport_sneakers/Sport_sneakers/Sport_sneakers_metallic.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Sport_sneakers\\Sport_sneakers\\Sport_sneakers\\Sport_sneakers_metallic.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1218,7 +1223,7 @@
                                         ]
                                     },
                                     "Base Color": {
-                                        "Texture Path": "Sport_sneakers_Diffuse.jpg",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Sport_sneakers_Diffuse.jpg",
                                         "Strength": 52.0,
                                         "Offset": [
                                             0.0,
@@ -1230,7 +1235,7 @@
                                         ]
                                     },
                                     "Roughness": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Sport_sneakers/Sport_sneakers/Sport_sneakers/Sport_sneakers_roughness.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Sport_sneakers\\Sport_sneakers\\Sport_sneakers\\Sport_sneakers_roughness.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1242,7 +1247,7 @@
                                         ]
                                     },
                                     "Glow": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Sport_sneakers/Sport_sneakers/Sport_sneakers/Sport_sneakers_Glow.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_metallic.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1254,7 +1259,7 @@
                                         ]
                                     },
                                     "Normal": {
-                                        "Texture Path": "Sport_sneakers_Normal.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Sport_sneakers_Normal.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1266,7 +1271,7 @@
                                         ]
                                     },
                                     "AO": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Sport_sneakers/Sport_sneakers/Sport_sneakers/Sport_sneakers_ao.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Sport_sneakers\\Sport_sneakers\\Sport_sneakers\\Sport_sneakers_ao.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1288,9 +1293,9 @@
                                 "MultiUV Index": 0,
                                 "Two Side": true,
                                 "Diffuse Color": [
-                                    131.0,
-                                    126.00000762939453,
-                                    59.000003814697266
+                                    131.00000739097595,
+                                    126.00000768899918,
+                                    59.00000408291817
                                 ],
                                 "Ambient Color": [
                                     150.0,
@@ -1306,7 +1311,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Base Color": {
-                                        "Texture Path": "Fit_shirts_Diffuse.jpg",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Fit_shirts_Diffuse.jpg",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1318,7 +1323,7 @@
                                         ]
                                     },
                                     "Roughness": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Fit_shirts/Fit_shirts/Fit_shirts/Fit_shirts_roughness.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Fit_shirts\\Fit_shirts\\Fit_shirts\\Fit_shirts_roughness.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1330,7 +1335,7 @@
                                         ]
                                     },
                                     "Glow": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Fit_shirts/Fit_shirts/Fit_shirts/Fit_shirts_Glow.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_metallic.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1342,7 +1347,7 @@
                                         ]
                                     },
                                     "Normal": {
-                                        "Texture Path": "Fit_shirts_Normal.jpg",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Fit_shirts_Normal.jpg",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1354,7 +1359,7 @@
                                         ]
                                     },
                                     "AO": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/Fit_shirts/Fit_shirts/Fit_shirts/Fit_shirts_ao.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Fit_shirts\\Fit_shirts\\Fit_shirts\\Fit_shirts_ao.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1365,7 +1370,8 @@
                                             1.0
                                         ]
                                     }
-                                }
+                                },
+                                "Metallic_Value": 0.0
                             }
                         }
                     },
@@ -1394,7 +1400,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Base Color": {
-                                        "Texture Path": "Std_Eye_R_Diffuse.jpg",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Std_Cornea_R_Diffuse.jpg",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1406,7 +1412,7 @@
                                         ]
                                     },
                                     "Normal": {
-                                        "Texture Path": "Std_Eye_R_Normal.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Std_Eye_R_Normal.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1416,8 +1422,21 @@
                                             1.0,
                                             1.0
                                         ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
                                     }
-                                }
+                                },
+                                "Metallic_Value": 0.0
                             },
                             "Std_Cornea_R": {
                                 "Material Type": "Pbr",
@@ -1442,7 +1461,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Base Color": {
-                                        "Texture Path": "Std_Cornea_R_Diffuse.jpg",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Std_Cornea_R_Diffuse.jpg",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1454,7 +1473,7 @@
                                         ]
                                     },
                                     "Opacity": {
-                                        "Texture Path": "Std_Cornea_R_Opacity.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Std_Cornea_R_Opacity.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1466,7 +1485,7 @@
                                         ]
                                     },
                                     "AO": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ao.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_ao.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1482,19 +1501,19 @@
                                     "Shader Name": "RLEye",
                                     "Image": {
                                         "Iris Normal": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisN.png"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_IrisN.png"
                                         },
                                         "Sclera Normal": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ScleraN.png"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_ScleraN.png"
                                         },
                                         "EyeBlendMap2": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_BCBMap.jpg"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_BCBMap.jpg"
                                         },
                                         "Inner Iris Mask": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisMask.png"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_IrisMask.png"
                                         },
                                         "Sclera": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_Sclera.jpg"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_Sclera.jpg"
                                         }
                                     },
                                     "Variable": {
@@ -1505,23 +1524,23 @@
                                         "Is Left Eye": 1.0,
                                         "Eye Corner Darkness Color": [
                                             255.0,
-                                            187.9860076904297,
-                                            178.9998016357422
+                                            187.98600554466248,
+                                            178.99980694055557
                                         ],
-                                        "Iris Depth Scale": 0.8999999761581421,
+                                        "Iris Depth Scale": 0.8999999463558197,
                                         "_Iris Roughness": 0.0,
                                         "Iris Color Brightness": 1.0,
                                         "Pupil Scale": 0.949999988079071,
                                         "_IoR": 1.399999976158142,
                                         "Iris Cloudy Color": [
                                             0.0,
-                                            2.549999952316284,
-                                            2.549999952316284
+                                            2.5499999430030584,
+                                            2.5499999430030584
                                         ],
                                         "Iris Inner Color": [
                                             255.0,
-                                            223.0,
-                                            125.0
+                                            223.00000190734863,
+                                            125.00000014901161
                                         ],
                                         "Iris Inner Scale": 0.0,
                                         "Iris UV Radius": 0.1599999964237213,
@@ -1531,7 +1550,7 @@
                                             255.0
                                         ],
                                         "Limbus UV Width Color": 0.054999999701976776,
-                                        "Limbus Dark Scale": 6.5,
+                                        "Limbus Dark Scale": 6.714969680132909,
                                         "ScleraBrightness": 0.75,
                                         "Sclera Roughness": 0.20000000298023224,
                                         "Sclera Flatten Normal": 0.8999999761581421,
@@ -1550,7 +1569,8 @@
                                     "IOR": 1.5499999523162842,
                                     "DecayScale": 1.0,
                                     "Lerp": 0.8500000238418579
-                                }
+                                },
+                                "Metallic_Value": 0.0
                             },
                             "Std_Eye_L": {
                                 "Material Type": "Pbr",
@@ -1575,7 +1595,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Base Color": {
-                                        "Texture Path": "Std_Eye_L_Diffuse.jpg",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Std_Cornea_L_Diffuse.jpg",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1587,7 +1607,7 @@
                                         ]
                                     },
                                     "Normal": {
-                                        "Texture Path": "Std_Eye_L_Normal.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Std_Eye_L_Normal.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1597,8 +1617,21 @@
                                             1.0,
                                             1.0
                                         ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
                                     }
-                                }
+                                },
+                                "Metallic_Value": 0.0
                             },
                             "Std_Cornea_L": {
                                 "Material Type": "Pbr",
@@ -1623,7 +1656,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Base Color": {
-                                        "Texture Path": "Std_Cornea_L_Diffuse.jpg",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Std_Cornea_L_Diffuse.jpg",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1635,7 +1668,7 @@
                                         ]
                                     },
                                     "Opacity": {
-                                        "Texture Path": "Std_Cornea_L_Opacity.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Std_Cornea_L_Opacity.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1647,7 +1680,7 @@
                                         ]
                                     },
                                     "AO": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Eye/CC_Base_Eye/Std_Cornea_L/Std_Cornea_L_ao.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_ao.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1663,19 +1696,19 @@
                                     "Shader Name": "RLEye",
                                     "Image": {
                                         "Iris Normal": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisN.png"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_IrisN.png"
                                         },
                                         "Sclera Normal": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_ScleraN.png"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_ScleraN.png"
                                         },
                                         "EyeBlendMap2": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_BCBMap.jpg"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_BCBMap.jpg"
                                         },
                                         "Inner Iris Mask": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_IrisMask.png"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_IrisMask.png"
                                         },
                                         "Sclera": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Eye/CC_Base_Eye/Std_Cornea_R/Std_Cornea_R_Sclera.jpg"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_Sclera.jpg"
                                         }
                                     },
                                     "Variable": {
@@ -1686,23 +1719,23 @@
                                         "Is Left Eye": 1.0,
                                         "Eye Corner Darkness Color": [
                                             255.0,
-                                            187.9860076904297,
-                                            178.9998016357422
+                                            187.98600554466248,
+                                            178.99980694055557
                                         ],
-                                        "Iris Depth Scale": 0.8999999761581421,
+                                        "Iris Depth Scale": 0.8999999463558197,
                                         "_Iris Roughness": 0.0,
                                         "Iris Color Brightness": 1.0,
                                         "Pupil Scale": 0.949999988079071,
                                         "_IoR": 1.399999976158142,
                                         "Iris Cloudy Color": [
                                             0.0,
-                                            2.549999952316284,
-                                            2.549999952316284
+                                            2.5499999430030584,
+                                            2.5499999430030584
                                         ],
                                         "Iris Inner Color": [
                                             255.0,
-                                            223.0,
-                                            125.0
+                                            223.00000190734863,
+                                            125.00000014901161
                                         ],
                                         "Iris Inner Scale": 0.0,
                                         "Iris UV Radius": 0.1599999964237213,
@@ -1712,7 +1745,7 @@
                                             255.0
                                         ],
                                         "Limbus UV Width Color": 0.054999999701976776,
-                                        "Limbus Dark Scale": 6.5,
+                                        "Limbus Dark Scale": 6.714969680132909,
                                         "ScleraBrightness": 0.75,
                                         "Sclera Roughness": 0.20000000298023224,
                                         "Sclera Flatten Normal": 0.8999999761581421,
@@ -1731,7 +1764,8 @@
                                     "IOR": 1.5499999523162842,
                                     "DecayScale": 1.0,
                                     "Lerp": 0.8500000238418579
-                                }
+                                },
+                                "Metallic_Value": 0.0
                             }
                         }
                     },
@@ -1760,7 +1794,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Metallic": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_metallic.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_metallic.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1772,7 +1806,7 @@
                                         ]
                                     },
                                     "Base Color": {
-                                        "Texture Path": "Std_Upper_Teeth_Diffuse.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Std_Upper_Teeth_Diffuse.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1784,7 +1818,7 @@
                                         ]
                                     },
                                     "Roughness": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_roughness.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_roughness.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1796,7 +1830,7 @@
                                         ]
                                     },
                                     "Normal": {
-                                        "Texture Path": "Std_Upper_Teeth_Normal.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Std_Upper_Teeth_Normal.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1808,7 +1842,7 @@
                                         ]
                                     },
                                     "AO": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_ao.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_ao.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1824,13 +1858,13 @@
                                     "Shader Name": "RLTeethGum",
                                     "Image": {
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_MicroN.png"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_ScleraN.png"
                                         },
                                         "Gradient AO": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_GradAO.jpg"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_GradAO.jpg"
                                         },
                                         "Gums Mask": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_GumsMask.jpg"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_GumsMask.jpg"
                                         }
                                     },
                                     "Variable": {
@@ -1846,7 +1880,7 @@
                                         ],
                                         "Is Upper Teeth": 1.0,
                                         "Teeth Brightness": 0.699999988079071,
-                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Teeth Desaturation": 0.10000002384185791,
                                         "Gums Brightness": 0.8999999761581421,
                                         "Gums Desaturation": 0.0,
                                         "Front Roughness": 0.4000000059604645,
@@ -1861,9 +1895,9 @@
                                 },
                                 "Subsurface Scatter": {
                                     "Falloff": [
-                                        166.0,
-                                        123.0,
-                                        101.0
+                                        166.00000530481339,
+                                        123.0000002682209,
+                                        101.00000157952309
                                     ],
                                     "Radius": 1.0,
                                     "Distribution": 0.9300000071525574,
@@ -1895,7 +1929,7 @@
                                 "Self Illumination": 0.0,
                                 "Textures": {
                                     "Metallic": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_metallic.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_metallic.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1907,7 +1941,7 @@
                                         ]
                                     },
                                     "Base Color": {
-                                        "Texture Path": "Std_Lower_Teeth_Diffuse.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Std_Lower_Teeth_Diffuse.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1919,7 +1953,7 @@
                                         ]
                                     },
                                     "Roughness": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_roughness.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Lower_Teeth\\Std_Lower_Teeth_roughness.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1931,7 +1965,7 @@
                                         ]
                                     },
                                     "Normal": {
-                                        "Texture Path": "Std_Lower_Teeth_Normal.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Std_Lower_Teeth_Normal.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1943,7 +1977,7 @@
                                         ]
                                     },
                                     "AO": {
-                                        "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Teeth/CC_Base_Teeth/Std_Lower_Teeth/Std_Lower_Teeth_ao.png",
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Lower_Teeth\\Std_Lower_Teeth_ao.png",
                                         "Strength": 100.0,
                                         "Offset": [
                                             0.0,
@@ -1959,13 +1993,13 @@
                                     "Shader Name": "RLTeethGum",
                                     "Image": {
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_MicroN.png"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Eye\\CC_Base_Eye\\Std_Cornea_R\\Std_Cornea_R_ScleraN.png"
                                         },
                                         "Gradient AO": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_GradAO.jpg"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_GradAO.jpg"
                                         },
                                         "Gums Mask": {
-                                            "Texture Path": "./textures/Personaje_Ahogamiento/CC_Base_Teeth/CC_Base_Teeth/Std_Upper_Teeth/Std_Upper_Teeth_GumsMask.jpg"
+                                            "Texture Path": "textures\\Personaje_Ahogamiento\\CC_Base_Teeth\\CC_Base_Teeth\\Std_Upper_Teeth\\Std_Upper_Teeth_GumsMask.jpg"
                                         }
                                     },
                                     "Variable": {
@@ -1981,7 +2015,7 @@
                                         ],
                                         "Is Upper Teeth": 0.0,
                                         "Teeth Brightness": 0.699999988079071,
-                                        "Teeth Desaturation": 0.10000000149011612,
+                                        "Teeth Desaturation": 0.10000002384185791,
                                         "Gums Brightness": 0.8999999761581421,
                                         "Gums Desaturation": 0.0,
                                         "Front Roughness": 0.4000000059604645,
@@ -1996,9 +2030,9 @@
                                 },
                                 "Subsurface Scatter": {
                                     "Falloff": [
-                                        165.0,
-                                        121.0,
-                                        101.0
+                                        165.00000536441803,
+                                        121.00000038743019,
+                                        101.00000157952309
                                     ],
                                     "Radius": 1.0,
                                     "Distribution": 0.9900000095367432,
@@ -2008,8 +2042,540 @@
                                 }
                             }
                         }
+                    },
+                    "CC_Game_Body_001": {
+                        "Materials": {
+                            "Ga_Skin_Body": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    150.0,
+                                    150.0,
+                                    150.0
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Skin_Body_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Skin_Body\\Ga_Skin_Body_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Metallic": {
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Skin_Body\\Ga_Skin_Body_metallic.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Skin_Body\\Ga_Skin_Body_roughness.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Skin_Body_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    }
+                                }
+                            },
+                            "Ga_Eyelash": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255.0,
+                                    255.0,
+                                    255.0
+                                ],
+                                "Ambient Color": [
+                                    150.0,
+                                    150.0,
+                                    150.0
+                                ],
+                                "Specular Color": [
+                                    229.5,
+                                    229.5,
+                                    229.5
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Eyelash_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "AO": {
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Eyelash\\Ga_Eyelash_ao.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Personaje_Ahogamiento\\CC_Game_Tongue\\Ga_Eyelash\\Ga_Eyelash_roughness.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Opacity": {
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Eyelash_Diffuse.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "textures\\Personaje_Ahogamiento\\Unpack\\Ga_Eyelash_Normal.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    }
+                                },
+                                "Metallic_Value": 0.0
+                            }
+                        }
+                    },
+                    "Estomago_1": {
+                        "Materials": {
+                            "Digestive_System": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "Ambient Color": [
+                                    150.0,
+                                    150.0,
+                                    150.0
+                                ],
+                                "Specular Color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "..\\..\\..\\..\\..\\descargas\\Nueva carpeta\\digestive-system\\source\\digestive system\\DigestiveSystem_diffuse.jpg",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "..\\..\\..\\..\\..\\descargas\\Nueva carpeta\\digestive-system\\source\\digestive system\\DigestiveSystem_bump.jpg",
+                                        "Strength": 30.000001192092896,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    }
+                                },
+                                "Roughness_Value": 0.7702603340148926,
+                                "Metallic_Value": 1.0
+                            }
+                        }
+                    },
+                    "Pulmones_001": {
+                        "Materials": {
+                            "thairoid01_lungh_part01": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "Ambient Color": [
+                                    150.0,
+                                    150.0,
+                                    150.0
+                                ],
+                                "Specular Color": [
+                                    187,
+                                    187,
+                                    187
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "..\\..\\..\\..\\..\\descargas\\Nueva carpeta\\realistic-human-lungs\\source\\Lungs With Texture.fbm\\all_low_lunghs_BaseColor.lungh_part01.jpg",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Metallic": {
+                                        "Texture Path": "..\\..\\..\\..\\..\\descargas\\Nueva carpeta\\realistic-human-lungs\\source\\Lungs With Texture.fbm\\all_low_lunghs_Metalness.lungh_part01.jpg",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "..\\..\\..\\..\\..\\descargas\\Nueva carpeta\\realistic-human-lungs\\source\\Lungs With Texture.fbm\\all_low_lunghs_Roughness.lungh_part01.jpg",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "..\\..\\..\\..\\..\\descargas\\Nueva carpeta\\realistic-human-lungs\\source\\Lungs With Texture.fbm\\all_low_lunghs_Normal.lungh_part01.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    }
+                                },
+                                "Roughness_Value": 0.5527864098548889,
+                                "Metallic_Value": 0.0
+                            }
+                        }
+                    },
+                    "Pulmones_1": {
+                        "Materials": {
+                            "thairoid01_lungh_part02": {
+                                "Material Type": "Pbr",
+                                "MultiUV Index": 0,
+                                "Two Side": true,
+                                "Diffuse Color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "Ambient Color": [
+                                    150.0,
+                                    150.0,
+                                    150.0
+                                ],
+                                "Specular Color": [
+                                    187,
+                                    187,
+                                    187
+                                ],
+                                "Opacity": 1.0,
+                                "Self Illumination": 0.0,
+                                "Textures": {
+                                    "Base Color": {
+                                        "Texture Path": "..\\..\\..\\..\\..\\descargas\\Nueva carpeta\\realistic-human-lungs\\source\\Lungs With Texture.fbm\\all_low_lunghs_BaseColor.lungh_part02.jpg",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Metallic": {
+                                        "Texture Path": "..\\..\\..\\..\\..\\descargas\\Nueva carpeta\\realistic-human-lungs\\source\\Lungs With Texture.fbm\\all_low_lunghs_Metalness.lungh_part02.jpg",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Roughness": {
+                                        "Texture Path": "..\\..\\..\\..\\..\\descargas\\Nueva carpeta\\realistic-human-lungs\\source\\Lungs With Texture.fbm\\all_low_lunghs_Roughness.lungh_part02.jpg",
+                                        "Strength": 100,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "Normal": {
+                                        "Texture Path": "..\\..\\..\\..\\..\\descargas\\Nueva carpeta\\realistic-human-lungs\\source\\Lungs With Texture.fbm\\all_low_lunghs_Normal.lungh_part02.png",
+                                        "Strength": 100.0,
+                                        "Offset": [
+                                            0,
+                                            0
+                                        ],
+                                        "Tiling": [
+                                            1,
+                                            1
+                                        ]
+                                    }
+                                },
+                                "Roughness_Value": 0.5527864098548889,
+                                "Metallic_Value": 0.0
+                            }
+                        }
                     }
-                }
+                },
+                "Bind_Pose": "TPose"
+            }
+        },
+        "Blender_Project": true,
+        "Facial_Profile": {
+            "Categories": {
+                "Visemes": [
+                    "V_Open",
+                    "V_Explosive",
+                    "V_Dental_Lip",
+                    "V_Tight_O",
+                    "V_Tight",
+                    "V_Wide",
+                    "V_Affricate",
+                    "V_Lip_Open",
+                    "V_Tongue_up",
+                    "V_Tongue_Raise",
+                    "V_Tongue_Out",
+                    "V_Tongue_Narrow",
+                    "V_Tongue_Lower",
+                    "V_Tongue_Curl_U",
+                    "V_Tongue_Curl_D"
+                ],
+                "Custom": [
+                    "V_None",
+                    "Brow_Raise_Inner_Left",
+                    "Brow_Raise_Inner_Right",
+                    "Brow_Raise_Outer_Left",
+                    "Brow_Raise_Outer_Right",
+                    "Brow_Drop_Left",
+                    "Brow_Drop_Right",
+                    "Brow_Raise_Left",
+                    "Brow_Raise_Right",
+                    "Eye_Wide_L",
+                    "Eye_Wide_R",
+                    "Eye_Squint_L",
+                    "Eye_Squint_R",
+                    "Eyes_Blink",
+                    "Eye_Blink_L",
+                    "Eye_Blink_R",
+                    "Nose_Scrunch",
+                    "Nose_Flanks_Raise",
+                    "Nose_Flank_Raise_L",
+                    "Nose_Flank_Raise_R",
+                    "Nose_Nostrils_Flare",
+                    "Cheek_Raise_L",
+                    "Cheek_Raise_R",
+                    "Cheeks_Suck",
+                    "Cheek_Blow_L",
+                    "Cheek_Blow_R",
+                    "Mouth_Smile",
+                    "Mouth_Smile_L",
+                    "Mouth_Smile_R",
+                    "Mouth_Frown",
+                    "Mouth_Frown_L",
+                    "Mouth_Frown_R",
+                    "Mouth_Blow",
+                    "Mouth_Pucker",
+                    "Mouth_Pucker_Open",
+                    "Mouth_Widen",
+                    "Mouth_Widen_Sides",
+                    "Mouth_Dimple_L",
+                    "Mouth_Dimple_R",
+                    "Mouth_Plosive",
+                    "Mouth_Lips_Tight",
+                    "Mouth_Lips_Tuck",
+                    "Mouth_Lips_Open",
+                    "Mouth_Lips_Part",
+                    "Mouth_Bottom_Lip_Down",
+                    "Mouth_Top_Lip_Up",
+                    "Mouth_Top_Lip_Under",
+                    "Mouth_Bottom_Lip_Under",
+                    "Mouth_Snarl_Upper_L",
+                    "Mouth_Snarl_Upper_R",
+                    "Mouth_Snarl_Lower_L",
+                    "Mouth_Snarl_Lower_R",
+                    "Mouth_Bottom_Lip_Bite",
+                    "Mouth_Down",
+                    "Mouth_Up",
+                    "Mouth_L",
+                    "Mouth_R",
+                    "Mouth_Lips_Jaw_Adjust",
+                    "Mouth_Bottom_Lip_Trans",
+                    "Mouth_Skewer",
+                    "Mouth_Open",
+                    "A01_Brow_Inner_Up",
+                    "A02_Brow_Down_Left",
+                    "A03_Brow_Down_Right",
+                    "A04_Brow_Outer_Up_Left",
+                    "A05_Brow_Outer_Up_Right",
+                    "A06_Eye_Look_Up_Left",
+                    "A07_Eye_Look_Up_Right",
+                    "A08_Eye_Look_Down_Left",
+                    "A09_Eye_Look_Down_Right",
+                    "A10_Eye_Look_Out_Left",
+                    "A11_Eye_Look_In_Left",
+                    "A12_Eye_Look_In_Right",
+                    "A13_Eye_Look_Out_Right",
+                    "A14_Eye_Blink_Left",
+                    "A15_Eye_Blink_Right",
+                    "A16_Eye_Squint_Left",
+                    "A17_Eye_Squint_Right",
+                    "A18_Eye_Wide_Left",
+                    "A19_Eye_Wide_Right",
+                    "A20_Cheek_Puff",
+                    "A21_Cheek_Squint_Left",
+                    "A22_Cheek_Squint_Right",
+                    "A23_Nose_Sneer_Left",
+                    "A24_Nose_Sneer_Right",
+                    "A25_Jaw_Open",
+                    "A26_Jaw_Forward",
+                    "A27_Jaw_Left",
+                    "A28_Jaw_Right",
+                    "A29_Mouth_Funnel",
+                    "A30_Mouth_Pucker",
+                    "A31_Mouth_Left",
+                    "A32_Mouth_Right",
+                    "A33_Mouth_Roll_Upper",
+                    "A34_Mouth_Roll_Lower",
+                    "A35_Mouth_Shrug_Upper",
+                    "A36_Mouth_Shrug_Lower",
+                    "A37_Mouth_Close",
+                    "A38_Mouth_Smile_Left",
+                    "A39_Mouth_Smile_Right",
+                    "A40_Mouth_Frown_Left",
+                    "A41_Mouth_Frown_Right",
+                    "A42_Mouth_Dimple_Left",
+                    "A43_Mouth_Dimple_Right",
+                    "A44_Mouth_Upper_Up_Left",
+                    "A45_Mouth_Upper_Up_Right",
+                    "A46_Mouth_Lower_Down_Left",
+                    "A47_Mouth_Lower_Down_Right",
+                    "A48_Mouth_Press_Left",
+                    "A49_Mouth_Press_Right",
+                    "A50_Mouth_Stretch_Left",
+                    "A51_Mouth_Stretch_Right",
+                    "T10_Tongue_Bulge_Left",
+                    "T11_Tongue_Bulge_Right",
+                    "A52_Tongue_Out",
+                    "T01_Tongue_Up",
+                    "T02_Tongue_Down",
+                    "T03_Tongue_Left",
+                    "T04_Tongue_Right",
+                    "T05_Tongue_Roll",
+                    "T06_Tongue_Tip_Up",
+                    "T07_Tongue_Tip_Down",
+                    "T08_Tongue_Width",
+                    "T09_Tongue_Thickness"
+                ]
             }
         }
     }
