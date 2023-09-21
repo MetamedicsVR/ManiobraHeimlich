@@ -8,8 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Std_Cornea_R
-  m_Shader: {fileID: -6465566751694194690, guid: 10bd32af3c3103d4a807b39585938251,
-    type: 3}
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -18,6 +17,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
+    RenderType: Opaque
   disabledShaderPasses:
   - MOTIONVECTORS
   - TransparentDepthPostpass
@@ -27,6 +27,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 655737382fc9da344b41dbe61e5ea3af, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ColorBlendMap:
         m_Texture: {fileID: 2800000, guid: 606e3de64f2ce1d41809fbd51221e3fc, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -35,8 +43,24 @@ Material:
         m_Texture: {fileID: 2800000, guid: 541f7c430379fc74997bec861a990d44, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 655737382fc9da344b41dbe61e5ea3af, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTexture:
@@ -47,12 +71,28 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ScleraDiffuseMap:
         m_Texture: {fileID: 2800000, guid: 8c02415a82a71fd469e59a8181eea4a0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ScleraNormalMap:
         m_Texture: {fileID: 2800000, guid: 24089e2fd85eb8a4c9522728a4a9af4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -75,13 +115,26 @@ Material:
     m_Floats:
     - BOOLEAN_ISCORNEA: 1
     - _AOStrength: 0.5
+    - _AlphaClip: 0
     - _AlphaCutoff: 0.5
+    - _Blend: 0
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
     - _ColorBlendStrength: 0
     - _CorneaSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
     - _CutoutSize: 0.28
     - _DepthRadius: 0.8
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _FalloffSize: 0.18
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
     - _IOR: 1.4
     - _IrisBrightness: 1.5
     - _IrisDepth: 0.2997
@@ -95,8 +148,10 @@ Material:
     - _LimbusDarkWidth: 0.1453672
     - _LimbusWidth: 0.055
     - _Metallic: 0
+    - _OcclusionStrength: 1
     - _Oppacity: 0
     - _PMod: 6.4
+    - _Parallax: 0.005
     - _ParallaxRadius: 0.1175
     - _PupilScale: 0.7125
     - _QueueControl: 0
@@ -113,14 +168,22 @@ Material:
     - _ShadowHardness: 0.01
     - _ShadowRadius: 0
     - _Smooth: 0
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
     - _TransAmbient: 0.1
     - _TransDirect: 0.9
     - _TransNormal: 0.95
     - _TransScattering: 2
     - _TransShadow: 0.5
     - _TransStrength: 2
+    - _WorkflowMode: 1
+    - _ZWrite: 1
     m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _CornerShadowColor: {r: 0.99999994, g: 0.8741368, b: 0.8553658, a: 1}
     - _CutoutPos: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
@@ -129,6 +192,7 @@ Material:
     - _IrisColor: {r: 0.99999994, g: 0.99999994, b: 0.99999994, a: 1}
     - _LimbusColor: {r: 0, g: 0, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SubsurfaceFalloff: {r: 1, g: 1, b: 1, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
