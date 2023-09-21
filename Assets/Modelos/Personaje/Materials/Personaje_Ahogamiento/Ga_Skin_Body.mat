@@ -103,12 +103,12 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _CutoutSize: 0.23
+    - _CutoutSize: 0.52
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 0.5
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _FalloffSize: 0.25
+    - _FalloffSize: 0.34
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
