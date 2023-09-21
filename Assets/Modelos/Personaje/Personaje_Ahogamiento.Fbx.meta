@@ -10,7 +10,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Digestive_System
+    second: {fileID: 2100000, guid: c07ad556d8a2903419503d186b953d6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Fit_shirts
+    second: {fileID: 2100000, guid: ffc1b88523c630f458bc879a2ef06650, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fit_shirts_001
     second: {fileID: 2100000, guid: ffc1b88523c630f458bc879a2ef06650, type: 2}
   - first:
       type: UnityEngine:Material
@@ -25,7 +35,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Ga_Skin_Body_001
+    second: {fileID: 2100000, guid: 16b6381cda729834286b750e46ee6a61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Slim_Jeans
+    second: {fileID: 2100000, guid: cf0f895605df4a748b6459a5ee91bdb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Slim_Jeans_001
     second: {fileID: 2100000, guid: cf0f895605df4a748b6459a5ee91bdb9, type: 2}
   - first:
       type: UnityEngine:Material
@@ -35,13 +55,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Sport_sneakers_001
+    second: {fileID: 2100000, guid: 5fa4eaabfa9b8f94d96d3cec10841e17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Std_Cornea_L
+    second: {fileID: 2100000, guid: 375f93e5fb1950b499e0f7dcc73fcc5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Cornea_L_001
     second: {fileID: 2100000, guid: 375f93e5fb1950b499e0f7dcc73fcc5a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Std_Cornea_R
     second: {fileID: 2100000, guid: ad3a49ffefa8ec94b9f245e2bff8068f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Cornea_R_001
+    second: {fileID: 2100000, guid: 375f93e5fb1950b499e0f7dcc73fcc5a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -60,8 +95,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Std_Lower_Teeth_001
+    second: {fileID: 2100000, guid: 4d365446bc3d3ef44b4d226e9ff99599, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Std_Upper_Teeth
     second: {fileID: 2100000, guid: d22ebd0b71fd23e48abac65c5ad0eaef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Std_Upper_Teeth_001
+    second: {fileID: 2100000, guid: d22ebd0b71fd23e48abac65c5ad0eaef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thairoid01_lungh_part01
+    second: {fileID: 2100000, guid: 58ccb21f8778d60428611e37a3c6f430, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: thairoid01_lungh_part02
+    second: {fileID: 2100000, guid: 0af75baa58290e641b141a4d054964e9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
