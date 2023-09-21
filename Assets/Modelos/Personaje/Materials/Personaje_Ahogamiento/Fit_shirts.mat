@@ -101,10 +101,11 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _FalloffSize: 0.2
+    - _FalloffSize: 0.1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _MaxProduct: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Oppacity: 0
